@@ -1,0 +1,44 @@
+.speech {
+  width: calc(100% - 3rem);
+  display: flex;
+}
+
+.bubble {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.storyteller-speech {
+  margin-top: 1rem;
+  padding-right: 3rem;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.storyteller-speech-bubble {
+  background-color: #fbcc62;
+  margin-top: 0.5rem;
+}
+
+.user-speech {
+  margin-top: 1rem;
+  padding-left: 3rem;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.user-speech-bubble {
+  background-color: #47c4fe;
+  margin-top: 0.5rem;
+}
+
+.user-option {
+  font-size: inherit;
+  border: none;
+  width: 100%;
+
+  &:active {
+    background-color: #2aa0d7;
+  }
+}
