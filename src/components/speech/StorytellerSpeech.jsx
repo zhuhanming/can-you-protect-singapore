@@ -32,6 +32,7 @@ const StorytellerSpeech = ({
     setTimeout(() => {
       setShowUserOptions(true);
     }, (text.length + 1) * 1000);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text]);
 
   return (
