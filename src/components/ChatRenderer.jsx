@@ -1,5 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CSSTransition } from "react-transition-group";
+import { animateScroll as scroll } from "react-scroll";
 
 import StorytellerSpeech from "./speech/StorytellerSpeech";
 import UserSpeech from "./speech/UserSpeech";
@@ -14,11 +15,10 @@ const ChatRenderer = ({
   progression,
   setProgression,
 }) => {
-  const bottomElementRef = useRef(null);
   const [showUserOptions, setShowUserOptions] = useState(false);
   const [showPrompt, setShowPrompt] = useState(false);
   const scrollToBottom = () => {
-    bottomElementRef.current?.scrollIntoView({ behavior: "smooth" });
+    scroll.scrollToBottom();
   };
 
   const onSelectOption = (index, to) => {
@@ -71,7 +71,6 @@ const ChatRenderer = ({
           Select one of the options above to continue the story!
         </div>
       )}
-      <div ref={bottomElementRef} />
     </div>
   );
 };
