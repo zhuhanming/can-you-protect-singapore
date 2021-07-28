@@ -68,11 +68,13 @@ const ChatRenderer = ({
           />
         </CSSTransition>
       )}
-      {showPrompt && (
-        <div className="chat-renderer__prompt">
-          Select one of the options above to continue the story!
-        </div>
-      )}
+      <div className="chat-renderer__prompt">
+        {showPrompt ? (
+          "Select one of the options above to continue the story!"
+        ) : (
+          <span>&nbsp;</span>
+        )}
+      </div>
     </div>
   );
 };

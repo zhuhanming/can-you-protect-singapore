@@ -35,7 +35,7 @@ const StorytellerSpeech = ({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text]);
 
-  return (
+  return textToRender.length > 0 ? (
     <div className="storyteller-speech speech" key={`storyteller-${story}`}>
       {textToRender.length > 0 && (
         <StorytellerIcon key={`storyteller-${story}-icon`} />
@@ -62,7 +62,9 @@ const StorytellerSpeech = ({
             }
             return (
               <CSSTransition
-                className="fade storyteller-speech-bubble bubble"
+                className={`fade storyteller-speech-bubble bubble${
+                  t.startsWith("→") ? " direction" : ""
+                }`}
                 timeout={500}
                 key={`storyteller-${story}-text-${index}`}
               >
@@ -73,7 +75,7 @@ const StorytellerSpeech = ({
         </div>
       </TransitionGroup>
     </div>
-  );
+  ) : null;
 };
 
 export default StorytellerSpeech;
