@@ -10,7 +10,10 @@ const UserOptions = ({ story, onSelectOption, myRef }) => {
   return (
     <div className="user-speech speech" key={`user-${story}`} ref={myRef}>
       <UserIcon role={role} key={`user-${story}-icon`} />
-      <div className="user-option-wrapper" key={`user-${story}-option-wrapper`}>
+      <div
+        className="user-option__container"
+        key={`user-${story}-option-container`}
+      >
         {options.map((o, index) => (
           <button
             className="user-option user-speech-bubble bubble"
