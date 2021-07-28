@@ -16,7 +16,6 @@ const StorytellerSpeech = ({
   const [textToRender, setTextToRender] = useState([]);
 
   useEffect(() => {
-    console.log(textToRender);
     if (!isLatest) {
       setTextToRender(text);
       return;

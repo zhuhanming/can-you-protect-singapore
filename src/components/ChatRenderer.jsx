@@ -38,16 +38,8 @@ const ChatRenderer = ({
     <div className="chat-renderer">
       {progression.map((p, index) => (
         <React.Fragment key={`progression-story-${p[0]}-${index}`}>
-          <StorytellerSpeech
-            story={p[0]}
-            isLatest={false}
-            key={`storyteller-speech-for-${p[0]}`}
-          />
-          <UserSpeech
-            story={p[0]}
-            option={p[1]}
-            key={`user-speech-for-${p[0]}`}
-          />
+          <StorytellerSpeech story={p[0]} isLatest={false} />
+          <UserSpeech story={p[0]} option={p[1]} />
         </React.Fragment>
       ))}
       <StorytellerSpeech
@@ -58,7 +50,6 @@ const ChatRenderer = ({
           scrollToBottom();
         }}
         isLatest={true}
-        key={`storyteller-speech-for-${currentStory}`}
         scrollToBottom={scrollToBottom}
       />
       {showUserOptions && (
@@ -66,7 +57,6 @@ const ChatRenderer = ({
           story={currentStory}
           onSelectOption={onSelectOption}
           showUserOptions={showUserOptions}
-          key={`user-speech-for-${currentStory}`}
         />
       )}
       <div className="chat-renderer__prompt">
