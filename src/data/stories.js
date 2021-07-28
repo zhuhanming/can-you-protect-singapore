@@ -712,8 +712,8 @@ export const stories = {
   45: {
     role: "SG",
     text: [
-      "image2",
       "At last, Operation Coldstore is finalised, but there’s just one small problem:",
+      "image2",
       "Lee wants to offer Lim Chin Siong a chance to go into exile. Naturally, your counterparts are wary; the Malayans, in particular, are afraid that Lee will let Lim escape to Indonesia, where he could threaten the new Malaysia. They’ve even threatened to cancel the operation and merger.",
     ],
     options: [
@@ -730,8 +730,8 @@ export const stories = {
   46: {
     role: "MY",
     text: [
-      "image2",
       "At last, Operation Coldstore is finalised, but there’s just one small problem:",
+      "image2",
       "Lee wants to offer Lim Chin Siong a chance to go into exile. Just before the communist threat is to be eliminated, he wants to give one of the most influential ones a chance to escape to Indonesia. Indonesia, which has already declared Konfrontasi. Who knows what harm Lim could do from there?",
     ],
     options: [
@@ -744,8 +744,8 @@ export const stories = {
   47: {
     role: "BR",
     text: [
-      "image2",
       "At last, Operation Coldstore is finalised, but there’s just one small problem:",
+      "image2",
       "Lee wants to offer Lim Chin Siong a chance to go into exile. The Malayans, afraid of what Lim could do if he escapes to Indonesia, which even now has declared Konfrontasi and is threatening Borneo, are threatening to cancel the operation and merger.",
     ],
     options: [
