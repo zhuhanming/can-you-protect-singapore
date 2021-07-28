@@ -40,7 +40,11 @@ const ChatRenderer = ({
     <div className="chat-renderer">
       {progression.map((p, index) => (
         <React.Fragment key={`progression-story-${p[0]}-${index}`}>
-          <StorytellerSpeech story={p[0]} isLatest={false} />
+          <StorytellerSpeech
+            story={p[0]}
+            isLatest={false}
+            key={`storyteller-speech-for-${p[0]}`}
+          />
           <UserSpeech story={p[0]} option={p[1]} />
         </React.Fragment>
       ))}
