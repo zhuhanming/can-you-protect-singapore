@@ -1,3 +1,5 @@
+@import "../../assets/variables.scss";
+
 .speech {
   width: calc(100% - 3rem);
   display: flex;
@@ -6,6 +8,17 @@
 .bubble {
   padding: 1rem;
   border-radius: 0.5rem;
+}
+
+.image-bubble {
+  width: auto;
+  img {
+    max-width: 200px;
+
+    @include media("<=phone") {
+      max-width: 100%;
+    }
+  }
 }
 
 .storyteller-speech {
@@ -18,6 +31,12 @@
 .storyteller-speech-bubble {
   background-color: #ece4db;
   margin-top: 0.5rem;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .user-speech {

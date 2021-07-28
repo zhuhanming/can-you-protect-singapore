@@ -1,4 +1,5 @@
 import React from "react";
+import { images } from "../../data/images";
 import { stories } from "../../data/stories";
 import StorytellerIcon from "../icons/StorytellerIcon";
 
@@ -13,14 +14,26 @@ const StorytellerSpeech = ({ story }) => {
         className="storyteller-speech-bubble__container"
         key={`storyteller-${story}-bubble-container`}
       >
-        {text.map((t, index) => (
-          <div
-            className="storyteller-speech-bubble bubble"
-            key={`storyteller-${story}-text-${index}`}
-          >
-            {t}
-          </div>
-        ))}
+        {text.map((t, index) => {
+          if (images[t] != null) {
+            return (
+              <div
+                className="storyteller-speech-bubble bubble image-bubble"
+                key={`storyteller-${story}-text-${index}`}
+              >
+                <img src={images[t]} alt="t" />
+              </div>
+            );
+          }
+          return (
+            <div
+              className="storyteller-speech-bubble bubble"
+              key={`storyteller-${story}-text-${index}`}
+            >
+              {t}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

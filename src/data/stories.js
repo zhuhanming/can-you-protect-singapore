@@ -2,7 +2,8 @@ export const stories = {
   0: {
     role: "NONE",
     text: [
-      "It’s a brand new day, 2nd September 1962. A copy of the Sunday Times lies on your coffee table where you had been having breakfast. You can still see its front page from here: YES - WHAT A WIN FOR PREMIER Lee. You feel hope as you get ready for work at the Internal Security Council (ISC); things are starting to look up. Before you leave, you check yourself in the mirror. You are:",
+      "image0",
+      "It’s a brand new day, 2nd September 1962. A copy of the Sunday Times lies on your coffee table where you had been having breakfast. You can still see its front page from here: YES - WHAT A WIN FOR PREMIER LEE. You feel hope as you get ready for work at the Internal Security Council (ISC); things are starting to look up. Before you leave, you check yourself in the mirror. You are:",
     ],
     options: [
       {
@@ -248,6 +249,7 @@ export const stories = {
   14: {
     role: "BR",
     text: [
+      "image1",
       "It’s all over the news. A M Azahari and his compatriots in Brunei have risen up in revolt against the British, possibly with Indonesia’s support. Certainly, the Indonesian communists appear to be very supportive. In Singapore, too, the Special Branch has reported to the council that Azahari met Lim Chin Siong just before revolting. The Barisan Socialis appears ready to come out in support of this armed rebellion. They are calling this a popular uprising against colonialists and calling on the Malayan and Singaporean governments to oppose the British.",
       "Lord Selkirk is furious. The Barisan Socialis have gone beyond the pale, supporting an armed revolt. Worse, Special Branch reports that they may yet have plans to support the revolt in some way. Troops have been sent to put it down, and you doubt the rebels can stand up to British firepower, but you have no idea what the Barisan Socialis intend to do in Singapore. What do you do?",
     ],
@@ -269,6 +271,7 @@ export const stories = {
   15: {
     role: "MY",
     text: [
+      "image1",
       "It’s all over the news. A M Azahari and his compatriots in Brunei have risen up in revolt against the British, possibly with Indonesia’s support. Certainly, the Indonesian communists appear to be very supportive. In Singapore, too, the Special Branch has reported to the council that Azahari met Lim Chin Siong just before revolting. The Barisan Socialis appears ready to come out in support of this armed rebellion. They are calling this a popular uprising against colonialists and calling on the Malayan and Singaporean governments to oppose the British.",
       "The British are panicking over the revolt. Troops are being sent to put it down, but their confidence has been shaken, especially as the Barisan Socialis came out in support of the revolt. This could be an opportunity to persuade them that the communists are a threat that need to be dealt with pre-emptively. What do you do?",
     ],
@@ -290,6 +293,7 @@ export const stories = {
   16: {
     role: "SG",
     text: [
+      "image1",
       "It’s all over the news. A M Azahari and his compatriots in Brunei have risen up in revolt against the British, possibly with Indonesia’s support. Certainly, the Indonesian communists appear to be very supportive. In Singapore, too, the Special Branch has reported to the council that Azahari met Lim Chin Siong just before revolting. The Barisan Socialis appears ready to come out in support of this armed rebellion. They are calling this a popular uprising against colonialists and calling on the Malayan and Singaporean governments to oppose the British.",
       "The British are panicking over the revolt. Troops are being sent to put it down, but their confidence has been shaken, especially as the Barisan Socialis came out in support of the revolt. This could be an opportunity to persuade them that the communists are a threat that need to be dealt with pre-emptively. What do you do?",
     ],
@@ -708,6 +712,7 @@ export const stories = {
   45: {
     role: "SG",
     text: [
+      "image2",
       "At last, Operation Coldstore is finalised, but there’s just one small problem:",
       "Lee wants to offer Lim Chin Siong a chance to go into exile. Naturally, your counterparts are wary; the Malayans, in particular, are afraid that Lee will let Lim escape to Indonesia, where he could threaten the new Malaysia. They’ve even threatened to cancel the operation and merger.",
     ],
@@ -725,6 +730,7 @@ export const stories = {
   46: {
     role: "MY",
     text: [
+      "image2",
       "At last, Operation Coldstore is finalised, but there’s just one small problem:",
       "Lee wants to offer Lim Chin Siong a chance to go into exile. Just before the communist threat is to be eliminated, he wants to give one of the most influential ones a chance to escape to Indonesia. Indonesia, which has already declared Konfrontasi. Who knows what harm Lim could do from there?",
     ],
@@ -738,6 +744,7 @@ export const stories = {
   47: {
     role: "BR",
     text: [
+      "image2",
       "At last, Operation Coldstore is finalised, but there’s just one small problem:",
       "Lee wants to offer Lim Chin Siong a chance to go into exile. The Malayans, afraid of what Lim could do if he escapes to Indonesia, which even now has declared Konfrontasi and is threatening Borneo, are threatening to cancel the operation and merger.",
     ],
@@ -815,6 +822,7 @@ export const stories = {
   53: {
     role: "SG",
     text: [
+      "image3",
       "It’s been a long few months, but it’s finally happening. On 2 February 1963, in the wee hours of the morning, police forces that had assembled in Johor entered Singapore and began arresting their targets. By the end of the month, there were 130 detained, including the top communist leaders of the Barisan Socialis and the vast majority of their united front network. Your duty is done, and you can finally take that long-awaited vacation. The Bahamas sound like a good place where you can relax for a few days…",
     ],
     options: [
@@ -827,6 +835,7 @@ export const stories = {
   54: {
     role: "MY",
     text: [
+      "image3",
       "It’s been a long few months, but it’s finally happening. On 2 February 1963, in the wee hours of the morning, police forces that had assembled in Johor entered Singapore and began arresting their targets. By the end of the month, there were 130 detained, including the top communist leaders of the Barisan Socialis and the vast majority of their united front network. Your duty is done, and you can finally take that long-awaited vacation. The Bahamas sound like a good place where you can relax for a few days…",
     ],
     options: [
@@ -839,6 +848,7 @@ export const stories = {
   55: {
     role: "BR",
     text: [
+      "image3",
       "It’s been a long few months, but it’s finally happening. On 2 February 1963, in the wee hours of the morning, police forces that had assembled in Johor entered Singapore and began arresting their targets. By the end of the month, there were 130 detained, including the top communist leaders of the Barisan Socialis and the vast majority of their united front network. Your duty is done, and you can finally take that long-awaited vacation. The Bahamas sound like a good place where you can relax for a few days…",
     ],
     options: [
@@ -851,12 +861,13 @@ export const stories = {
   56: {
     role: "NONE",
     text: [
+      "image4",
       "“Operation Cold Store shattered our underground network throughout the island. Those who escaped the police net went into hiding. Many fled to Indonesia.” - Chin Peng, Alias Chin Peng, 439.",
     ],
     options: [
       {
         text: "Restart",
-        to: 0,
+        to: -1,
       },
     ],
   },

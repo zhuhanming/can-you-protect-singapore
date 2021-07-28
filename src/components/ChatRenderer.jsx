@@ -18,6 +18,11 @@ const ChatRenderer = ({
   };
 
   const onSelectOption = (index, to) => {
+    if (to === -1) {
+      setProgression([]);
+      setCurrentStory(0);
+      return;
+    }
     const progressionCopy = progression.slice();
     progressionCopy.push([currentStory, index]);
     setProgression(progressionCopy);
