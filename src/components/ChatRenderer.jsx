@@ -24,7 +24,6 @@ const ChatRenderer = ({
   const onSelectOption = (index, to) => {
     setShowPrompt(false);
     setShowUserOptions(false);
-    scrollToBottom();
     if (to === -1) {
       setProgression([]);
       setCurrentStory(0);
@@ -34,9 +33,8 @@ const ChatRenderer = ({
     progressionCopy.push([currentStory, index]);
     setProgression(progressionCopy);
     setCurrentStory(to);
+    scroll.scrollToBottom({ duration: 0, smooth: false });
   };
-
-  useEffect(scrollToBottom, [progression]);
 
   return (
     <div className="chat-renderer">
