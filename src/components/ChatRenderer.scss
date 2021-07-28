@@ -6,6 +6,12 @@
   justify-content: flex-end;
   overflow-y: scroll;
   padding: 0 1rem 1rem;
+
+  &__prompt {
+    margin-top: 1rem;
+    text-align: center;
+    color: #264653;
+  }
 }
 
 @include media("<=phone") {
