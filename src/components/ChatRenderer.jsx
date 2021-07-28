@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { CSSTransition } from "react-transition-group";
 import { animateScroll as scroll } from "react-scroll";
 
 import StorytellerSpeech from "./speech/StorytellerSpeech";
@@ -7,7 +6,6 @@ import UserSpeech from "./speech/UserSpeech";
 import UserOptions from "./speech/UserOptions";
 
 import "./ChatRenderer.scss";
-import "./Transitions.scss";
 
 const ChatRenderer = ({
   currentStory,
@@ -45,7 +43,11 @@ const ChatRenderer = ({
             isLatest={false}
             key={`storyteller-speech-for-${p[0]}`}
           />
-          <UserSpeech story={p[0]} option={p[1]} />
+          <UserSpeech
+            story={p[0]}
+            option={p[1]}
+            key={`user-speech-for-${p[0]}`}
+          />
         </React.Fragment>
       ))}
       <StorytellerSpeech
@@ -60,13 +62,12 @@ const ChatRenderer = ({
         scrollToBottom={scrollToBottom}
       />
       {showUserOptions && (
-        <CSSTransition timeout={500} classNames="fade">
-          <UserOptions
-            story={currentStory}
-            onSelectOption={onSelectOption}
-            showUserOptions={showUserOptions}
-          />
-        </CSSTransition>
+        <UserOptions
+          story={currentStory}
+          onSelectOption={onSelectOption}
+          showUserOptions={showUserOptions}
+          key={`user-speech-for-${currentStory}`}
+        />
       )}
       <div className="chat-renderer__prompt">
         {showPrompt ? (
