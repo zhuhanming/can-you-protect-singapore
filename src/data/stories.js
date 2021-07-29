@@ -582,7 +582,7 @@ export const stories = {
     role: "BR",
     text: [
       "The Malayans explain that they aren’t against arresting the communists, but they want Singapore to take their share of the responsibility for the arrests and produce an acceptable list of arrestees. In fact, they took the initiative to arrest fifty communists on their side of the border in December. Lee is holidaying in Cameron Highlands now, making communications difficult, but there’s hope that Operation Coldstore can still go ahead.",
-      "→ How did the ISC handle the disagreements? Find out more at the First Coldstore Exhibit, where you can read their top secret letters yourself!",
+      "→ How did the ISC handle the disagreements? Find out more at the British Resolve Exhibit, where you can read their top secret letters yourself!",
     ],
     options: [
       {
@@ -595,7 +595,7 @@ export const stories = {
     role: "SG",
     text: [
       "While Lee takes a break in Cameron Highlands - the man’s been under a lot of pressure - you work with the British to persuade the Malayans. It’s not as hard as you feared; with each passing day the Malayans are also growing more afraid of the communists and Indonesia, which has become increasingly hostile. They have arrested some communists on their side, but they do want Singapore to share responsibility for Coldstore, and to revise the list of arrestees. Still, at least they’re willing to talk.",
-      "→ How did the ISC handle the disagreements? Find out more at the First Coldstore Exhibit, where you can read their top secret letters yourself!",
+      "→ How did the ISC handle the disagreements? Find out more at the British Resolve Exhibit, where you can read their top secret letters yourself!",
     ],
     options: [
       {
@@ -672,7 +672,7 @@ export const stories = {
     role: "MY",
     text: [
       "In the end, the Singaporeans agree to take their share of responsibility for Coldstore. Moreover, the arrest list has also been finalised, with three of the Singaporeans’ new names included. These communists and sympathisers from Ong Eng Guan’s party, you accept, are a clear threat and cannot be left untouched if you don’t want to risk the communists making a comeback. So, they’ll be detained too. There’s just one last problem.",
-      "→ How did the ISC handle the disagreements? Find out more at the First Coldstore Exhibit, where you can read their top secret letters yourself!",
+      "→ How did the ISC handle the disagreements? Find out more at the British Resolve Exhibit, where you can read their top secret letters yourself!",
     ],
     options: [
       {
@@ -709,7 +709,7 @@ export const stories = {
     role: "MY",
     text: [
       "Singapore too is urging the arrests, and has agreed to share responsibility. Plus, there’s greater agreement on the arrest list now; three politicians from Ong Eng Guan’s party, communists and sympathisers all, will be included to make sure that the communists can’t regroup under them. Coldstore is now set to happen.",
-      "→ How did the ISC handle the disagreements? Find out more at the First Coldstore Exhibit, where you can read their top secret letters yourself!",
+      "→ How did the ISC handle the disagreements? Find out more at the British Resolve Exhibit, where you can read their top secret letters yourself!",
     ],
     options: [
       {
